@@ -49,7 +49,7 @@ class Calcular:
             return '+'
         elif self.operacao == 2:
             return '-'
-        elif self.opercao == 3:
+        elif self.operacao == 3:
             return '*'
         else:
             return f'Essa Operação é inválida!'

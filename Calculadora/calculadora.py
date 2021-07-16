@@ -23,15 +23,15 @@ try:
 
     # caso a primeiro if não for verdade executa esse
     elif opcao == 2:
-        print(f'\nA subtração de {num1} + {num2} = {num1 - num2}.')
+        print(f'\nA subtração de {num1} - {num2} = {num1 - num2}.')
 
     # caso os dois não forem verdade, executa esse.
     elif opcao == 3:
-        print(f'\nA multiplicação de {num1} + {num2} = {num1 * num2}.')
+        print(f'\nA multiplicação de {num1} * {num2} = {num1 * num2}.')
 
     # caso os tres não forem verdade, executa esse.
     elif opcao == 4:
-        print(f'\nA divisão de {num1} + {num2} = {num1 / num2}.')
+        print(f'\nA divisão de {num1} / {num2} = {num1 / num2}.')
     # Se nenhum for verdade, executa esse.
     else:
         print('\nOpção Inválida!')
