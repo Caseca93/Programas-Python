@@ -20,5 +20,6 @@ class Simulador:
     def GerarValordoDado(self) -> int:
         print(random.randint(self.__valor_minimo, self.__valor_maximo))
 
+
 dado = Simulador()
 dado.jogar()
